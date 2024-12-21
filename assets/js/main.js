@@ -1,11 +1,17 @@
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function (e) {
-    e.preventDefault(); // Prevent default anchor behavior
+// Toggle Mobile Menu
+const hamburger = document.getElementById("hamburger");
+const mobileMenu = document.getElementById("mobile-menu");
+const mobileMenuLinks = document.querySelectorAll("#mobile-menu a");
 
-    const target = document.querySelector(this.getAttribute('href'));
-    window.scrollTo({
-      top: target.offsetTop, // Scroll to the target's offsetTop
-      behavior: 'smooth' // Smooth scroll
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    mobileMenu.classList.toggle("active");
+});
+
+// Close Mobile Menu on Link Click
+mobileMenuLinks.forEach(link => {
+    link.addEventListener("click", () => {
+        hamburger.classList.remove("active");
+        mobileMenu.classList.remove("active");
     });
-  });
 });
