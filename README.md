@@ -5,11 +5,11 @@ Sapphire is a luxury restaurant offering an unparalleled dining experience blend
 
 ### Previews 👀
 
-- ### [Live Website](https://velimirpaleksic.github.io/sapphire/)
+- ### [Live Website](https://vexsystems.github.io/sapphire/)
 
 ### Bugs & features 🧩
-- [Report bug](https://github.com/velimirpaleksic/portfolio/issues)
-- [Request Feature](https://github.com/velimirpaleksic/portfolio/issues)
+- [Report bug](https://github.com/vexsystems/portfolio/issues)
+- [Request Feature](https://github.com/vexsystems/portfolio/issues)
 
 ### Sections 📚
 - Welcome
