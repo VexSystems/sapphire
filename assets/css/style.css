@@ -316,6 +316,10 @@ nav img {
     width: 100%;
     height: 100%;
     position: relative;
+    overflow: hidden;
+}
+.chef .img-wrapper:hover img {
+    transform: scale(1.2);
 }
 .chef img {
     width: 100%;
